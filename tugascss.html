@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TUGAS CSS </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+<style>
+  .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightblue;
+}
+
+.flex-container > div {
+  background-color: lightcoral;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 10px; 
+}
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+<body>
+    <h1> TUGAS CSS </h1>
+        <div>
+            CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk
+             menentukan tampilan dan tata letak elemen dalam sebuah halaman web. 
+             CSS bekerja bersama dengan HTML untuk mengatur warna, font, ukuran, posisi,
+            dan berbagai aspek desain lainnya agar halaman web lebih menarik dan responsif.
+        </div> </br>
+        <table>
+            <tr>
+              <th>HTML</th>
+              <th>CSS</th>
+            </tr>
+            <tr>
+              <td>Struktur dan konten halaman web.</td>
+              <td>Mengatur tampilan dan desain halaman web.</td>           
+            </tr>
+            <tr>
+              <td>Menyediakan elemen-elemen seperti teks, gambar, tabel, formulir, dll.</td>
+              <td>Mengubah warna, font, layout, dan efek visual.</td>           
+            </tr>
+            <tr>
+              <td>Dibaca langsung oleh browser untuk menampilkan konten.</td>
+              <td>Digunakan bersama HTML untuk memperindah tampilan.</td>             
+            </tr>
+        </table></br>
+
+    <a href="https://www.w3schools.com/css/default.asp" target="_blank">KLIK UNTUK BELAJAR CSS</a></br>
+    <a href="https://www.w3schools.com/html/default.asp" class="button">KLIK UNTUK BELAJAR HTML</a></br>
+
+    <img src="css.png" alt="css" width="300" height="300"></br>
+    <div class="flex-container">
+      <div>SAYA</div>
+      <div>SUKA</div>
+      <div>HTML</div> 
+      <div>CSS</div>
+    </div></br>
+
+    <div class="container">
+      <div class="item">ALASAN</div>
+      <div class="item">ANDA</div>
+      <div class="item">HARUS</div>
+      <div class="item">BELAJAR</div>
+      <div class="item">HTML</div>
+      <div class="item">CSS</div>
+    </div></br>
+    <img src="html.png" width="500" height="400">
+</body>
+</html>
